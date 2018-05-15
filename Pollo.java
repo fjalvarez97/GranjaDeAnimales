@@ -4,7 +4,7 @@
  * @author Fran Alvarez
  * @version 1.0
  */
-public class Pollo extends Animal implements Vacunar
+public class Pollo extends AnimalConVacuna 
 {
     /**
      * Constructor for objects of class Pollo

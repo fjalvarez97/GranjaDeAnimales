@@ -4,7 +4,7 @@
  * @author Fran Alvarez
  * @version 1.0
  */
-public class Vaca extends Animal implements Vacunar
+public class Vaca extends AnimalConVacuna 
 {
     /**
      * Constructor for objects of class Cerdo

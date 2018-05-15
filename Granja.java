@@ -29,7 +29,7 @@ public class Granja
      * Metodo para vacunar a un animal
      * @param animal el animal a vacunar
      */
-    public void vacunar(Animal animal)
+    public void vacunar(AnimalConVacuna animal)
     {      
         animal.vacunar();
     }
