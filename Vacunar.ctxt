@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Vacunar
+comment0.text=\r\n\ Interfaz\ vacunar\r\n\r\n\ @author\ Fran\ Alvarez\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ vacunar()
+comment1.text=\r\n\ Vacuna\ al\ animal\ aumentando\ sus\ puntos\ de\ vida\r\n
+numComments=2

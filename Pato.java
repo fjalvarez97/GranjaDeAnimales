@@ -1,42 +1,53 @@
 /**
- * Esta clase representa animales
+ * Representa patos de una granja
  *
  * @author Fran Alvarez
  * @version 1.0
  */
-public abstract class Animal
+public class Pato extends Animal 
 {
-    protected int puntosDeVida;
-    protected int peso;
     /**
-     * Constructor de objetos de la clase Animal
+     * Constructor for objects of class Cerdo
      */
-    public Animal(int peso)
+    public Pato()
     {
-        puntosDeVida = 100;
-        this.peso = peso;
+        super(2);
     }
-    
+
     /**
      * Alimenta al animal, disminuyendo sus puntos de vida
      */
-    public abstract void comer();
-    
+    @Override
+    public  void comer()
+    {
+        peso += 1;
+        puntosDeVida -= 10;
+    }
+
     /**
      *  Muestra el sonido caracteristico del animal
      */
-    public abstract void emitirSonidoCaracteristico();
-    
+    @Override
+    public void emitirSonidoCaracteristico()
+    {
+        System.out.println("Cua, cua");
+    }
+
     /**
      * Devuelve el peso del animal
      * @return el peso del animal
      */
-    public abstract int getPeso();
- 
+    @Override
+    public int getPeso()
+    {
+        return peso;
+    }
+
     /**
      * Devuelve los puntos de vida del animal
      * @return los puntos de vida del animal
      */
+    @Override
     public int getPuntosDeVida()
     {
         return puntosDeVida;
