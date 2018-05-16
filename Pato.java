@@ -4,26 +4,18 @@
  * @author Fran Alvarez
  * @version 1.0
  */
-public class Pato extends Animal 
+public class Pato extends AnimalPosibleModificado
 {
+    private boolean modificado;
     /**
      * Constructor for objects of class Cerdo
      */
-    public Pato()
+    public Pato(boolean modificado)
     {
-        super(2);
+        super(2, modificado);
+        this.modificado = modificado;
     }
-
-    /**
-     * Alimenta al animal, disminuyendo sus puntos de vida
-     */
-    @Override
-    public  void comer()
-    {
-        peso += 1;
-        puntosDeVida -= 10;
-    }
-
+    
     /**
      *  Muestra el sonido caracteristico del animal
      */

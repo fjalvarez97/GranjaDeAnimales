@@ -4,26 +4,18 @@
  * @author Fran Alvarez
  * @version 1.0
  */
-public class Pollo extends AnimalConVacuna 
+public class Pollo extends AnimalPosibleModificado implements Vacunar 
 {
+    private boolean modificado;
     /**
      * Constructor for objects of class Pollo
      */
-    public Pollo()
+    public Pollo(boolean modificado)
     {
-        super(1);
+        super(1, modificado);
+        this.modificado = modificado;
     }
-
-    /**
-     * Alimenta al animal, disminuyendo sus puntos de vida
-     */
-    @Override
-    public  void comer()
-    {
-        peso += 1;
-        puntosDeVida -= 10;
-    }
-
+         
     /**
      *  Muestra el sonido caracteristico del animal
      */
