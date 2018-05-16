@@ -1,16 +1,13 @@
 #BlueJ class context
 comment0.target=Granja
 comment0.text=\r\n\ Esta\ clase\ representa\ una\ granja\ de\ animales\r\n\r\n\ @author\ Fran\ Alvarez\r\n\ @version\ 1.0\r\n
-comment1.params=
-comment1.target=Granja()
-comment1.text=\r\n\ Constructor\ de\ objetos\ de\ la\ clase\ granja\r\n
+comment1.params=animal
+comment1.target=void\ alimentar(Animal)
+comment1.text=\r\n\ Metodo\ para\ alimentar\ a\ un\ animal\r\n\ @param\ animal\ el\ animal\ a\ alimentar\r\n
 comment2.params=animal
-comment2.target=void\ alimentar(Animal)
-comment2.text=\r\n\ Metodo\ para\ alimentar\ a\ un\ animal\r\n\ @param\ animal\ el\ animal\ a\ alimentar\r\n
+comment2.target=void\ vacunar(AnimalConVacuna)
+comment2.text=\r\n\ Metodo\ para\ vacunar\ a\ un\ animal\r\n\ @param\ animal\ el\ animal\ a\ vacunar\r\n
 comment3.params=animal
-comment3.target=void\ vacunar(AnimalConVacuna)
-comment3.text=\r\n\ Metodo\ para\ vacunar\ a\ un\ animal\r\n\ @param\ animal\ el\ animal\ a\ vacunar\r\n
-comment4.params=animal
-comment4.target=void\ hacerEmitirSonidoCaracter\u00EDstico(Animal)
-comment4.text=\r\n\ Metodo\ para\ emitir\ el\ sonido\ caracteristico\ de\ un\ animal\r\n\ @param\ animal\ el\ animal\ del\ cual\ emitir\ su\ sonido\ caracteristico\r\n
-numComments=5
+comment3.target=void\ hacerEmitirSonidoCaracter\u00EDstico(Animal)
+comment3.text=\r\n\ Metodo\ para\ emitir\ el\ sonido\ caracteristico\ de\ un\ animal\r\n\ @param\ animal\ el\ animal\ del\ cual\ emitir\ su\ sonido\ caracteristico\r\n
+numComments=4

@@ -7,15 +7,6 @@ import java.util.ArrayList;
  */
 public class Granja
 {
-    private ArrayList<Animal> animales;
-    /**
-     * Constructor de objetos de la clase granja
-     */
-    public Granja()
-    {
-        animales = new ArrayList<>();
-    }
-
     /**
      * Metodo para alimentar a un animal
      * @param animal el animal a alimentar
