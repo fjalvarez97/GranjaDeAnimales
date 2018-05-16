@@ -4,24 +4,15 @@
  * @author Fran Alvarez
  * @version 1.0
  */
-public class Cerdo extends Animal implements Vacunar
+public class Cerdo extends AnimalDeRaza implements Vacunar
 {
     /**
      * Constructor for objects of class Cerdo
+     * @param calidadRaza la calidad de la raza del animal (0-10)
      */
-    public Cerdo()
+    public Cerdo(int calidadRaza)
     {
-        super(15);
-    }
-
-    /**
-     * Alimenta al animal, disminuyendo sus puntos de vida
-     */
-    @Override
-    public  void comer()
-    {
-        peso += 2;
-        puntosDeVida -= 10;
+        super(15, calidadRaza);
     }
 
     /**

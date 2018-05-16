@@ -9,6 +9,7 @@ public class Pollo extends AnimalPosibleModificado implements Vacunar
     private boolean modificado;
     /**
      * Constructor for objects of class Pollo
+     * @param modificado si el animal ha sido modificado genicamente
      */
     public Pollo(boolean modificado)
     {

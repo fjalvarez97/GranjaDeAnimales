@@ -1,15 +1,16 @@
-
 /**
- * Write a description of class AnimalPosibleModificado here.
+ * Esta clase representa un animal que puede estar geneticamente modificado
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Fran Alvarez
+ * @version 1.0
  */
 public abstract class AnimalPosibleModificado extends Animal
 {
     private boolean modificado;
     /**
      * Constructor for objects of class AnimalPosibleModificado
+     * @param peso el peso del animal
+     * @param modificado si el animal esta o no modificado
      */
     public AnimalPosibleModificado(int peso, boolean modificado)
     {
@@ -18,7 +19,8 @@ public abstract class AnimalPosibleModificado extends Animal
     }
     
      /**
-     * Alimenta al animal, disminuyendo sus puntos de vida
+     * Alimenta al animal, pudiendo disminuir sus puntos de vida
+     * y aumentando su peso
      */
     @Override
     public  void comer()

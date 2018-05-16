@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=AnimalDeRaza
+comment0.text=\r\n\ Animales\ con\ calidad\ de\ su\ raza\r\n\r\n\ @author\ Fran\ Alvarez\r\n\ @version\ 1.0\r\n
+comment1.params=peso\ calidadRaza
+comment1.target=AnimalDeRaza(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AnimalesDeRaza\r\n\ @param\ peso\ el\ peso\ del\ animal\r\n\ @param\ valorRaza\ la\ calidad\ de\ la\ raza\ del\ animal\r\n
+comment2.params=
+comment2.target=void\ comer()
+comment2.text=\r\n\ Alimenta\ al\ animal,\ disminuyendo\ sus\ puntos\ de\ vida\r\n\ y\ aumentando\ su\ peso\r\n
+numComments=3

@@ -8,7 +8,8 @@ public class Pato extends AnimalPosibleModificado
 {
     private boolean modificado;
     /**
-     * Constructor for objects of class Cerdo
+     * Constructor de objetos de la clase Pato
+     * @param modificado si el animal ha sido modificado genicamente
      */
     public Pato(boolean modificado)
     {
